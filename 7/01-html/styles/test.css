@@ -1,0 +1,224 @@
+/**
+通用标签
+*/
+body{
+  font-family: sans-serif;
+  font-size: 20px;
+  height: 2000px;
+  background-position: 300px;
+  font-family: sans-serif;
+}
+
+li{
+  list-style: none;
+}
+a:link,a:visited{
+  color:black;
+}
+
+/**
+容器级
+*/
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+header{
+  height: 100px;
+  padding: 20px;
+  color:#0080ff;
+
+}
+
+header img{
+float: left;
+  border:1px solid;
+}
+header h1{
+  text-align: center;
+  line-height: 100px;
+  border:1px solid;
+  width: 1000px;
+  float: left;
+  height: 100px;
+  font-size: 30px;
+
+}
+nav{
+  background-color:#ac1e44;
+  margin-bottom: 10px;
+}
+nav ul{
+  text-align: center;
+  overflow: hidden;
+}
+nav li{
+  float:left;
+  padding: 10px 15px;
+  background-color: #ac1e44;
+  list-style: none;
+  font-size: 0.8em;
+  line-height: 40px;
+}
+nav li:hover{
+  background-color: black;
+  color:coral;
+  cursor: pointer;
+}
+nav li:first-child{
+  color:white;
+  background-color: black;
+}
+div.advertise{
+  background-color: white;
+  border:2px solid;
+  border-left: none;
+  border-right: none;
+}
+
+
+div.bgimg{
+  height: 495px;
+  text-align: center;
+  background-image: url(../images/shef.jpg);
+  background-repeat: no-repeat;
+  background-size: 500px 400px;
+  background-position: center;
+}
+div .bgimg h1{
+  display: inline;
+}
+
+main .infosection{
+  width: 1024px;
+  height: 200px;
+  background-color: white;
+  border-top: 1px solid;
+}
+main .infosection ul{
+  width: 1024px;
+  height: 200px;
+
+}
+main .infosection ul li{
+  width: 160px;
+  height: 150px;
+  margin: 15px;
+  float: left;
+  border: 5px solid #ac1e44;
+  border-radius: 10%;
+}
+
+
+
+
+
+.imgs dl a:link,a:visited{
+
+  text-decoration:none;
+
+}
+.imgs dt:hover,.imgs dd:hover{
+  background-color: #4593b1;
+
+
+}
+
+div .imgs{
+  width: 1024px;
+  height: 1000px;
+  font-size: 30px;
+  border:1px solid;
+  margin: 0 auto;
+}
+div .imgs img{
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+div .imgs img.right{
+  float: right;
+}
+div .imgs ul{
+  width: 800px;
+  height: 1000px;
+  margin: 0 auto;
+
+}
+div .imgs li{
+  height: 200px;
+  margin: 20px;
+  color:#364840;
+}
+div .imgs dl{
+border-bottom:1px solid;
+line-height: 40px;
+padding: 10px;
+color:#364840;
+}
+
+
+div .imgs dt{
+  font-size: 33px;
+  padding-left: 20px;
+line-height: 42px;
+padding-bottom: 5px;
+
+}
+div .imgs dd{
+font-family: fantasy;
+font-size: 20px;
+height: 30px;
+line-height: 30px;
+background-image: url(../images/sprite/icon1.png);
+background-repeat: no-repeat;
+background-position: -130px -260px;
+padding-left: 70px;
+
+}
+div .imgs .box1{
+  margin-left: 200px;
+}
+div .imgs .box2{
+margin-right: 200px;
+
+}
+div .imgs .box3{
+  margin-left: 200px;
+}
+div .imgs .box4{
+  margin-right: 200px;
+}
+
+div .imgs img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+footer{
+  text-align: center;
+  line-height: 100px;
+}
+
+
+div .imgBox{
+
+}
+
+div .imgBox ul{
+border:1px solid;
+}
+div .imgBox h2{
+
+  width: 40px;
+  height: 40px;
+border:1px solid;
+
+  background-image: url(../images/sprite/icon1.png);
+  background-position: -298px -470px;
+}
+
+div .blank{
+  height: 30px;
+
+}
